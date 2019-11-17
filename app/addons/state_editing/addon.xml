@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>state_editing</id>
+    <version>0.1</version>
+    <priority>1000</priority>
+    <position>1</position>
+    <status>active</status>
+    <has_icon>Y</has_icon>
+    <default_language>en</default_language>
+    <supplier> A.Aymetov</supplier>
+    <supplier_link>https://vk.com/id225496128</supplier_link>
+    <compatibility>
+        <core_version>
+            <min>4.11.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE
+        </core_edition>
+    </compatibility>
+    
+    <queries>
+        <item for="install">
+            ALTER TABLE `?:products`
+                ADD `state_editing` VARCHAR(64) NOT NULL;
+        </item>
+        <item for="uninstall">
+            ALTER TABLE `?:products`
+                DROP `state_editing`
+        </item>
+    </queries>
+
+</addon>
