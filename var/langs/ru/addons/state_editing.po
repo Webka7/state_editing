@@ -1,0 +1,33 @@
+msgid ""
+msgstr "Project-Id-Version: tygh"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::product_package"
+msgid "Simtech Development: product package"
+msgstr "Simtech Development: Selection of product packaging"
+
+msgctxt "Addons::description::product_package"
+msgid "This module allows you to choose the packaging Gift, Standard, Premium. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+msgstr "This module allows you to choose packaging Gift, Standard, Premium. <a href=\"https://www.simtechdev.com/\" target=\"_blank\">Support</a>"
+
+msgctxt "Languages::product_package"
+msgid "Product package"
+msgstr "Product package type"
+
+msgctxt "Languages::type_package"
+msgid "Specify the type of packaging"
+msgstr "Specify the type of packaging"
+
+msgctxt "Languages::gift"
+msgid "Gift"
+msgstr "Gift"
+
+msgctxt "Languages::standard"
+msgid "Standart"
+msgstr "Standart"
+
+msgctxt "Languages::premium"
+msgid "Premium"
+msgstr "Premium"
