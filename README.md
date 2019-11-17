@@ -17,4 +17,4 @@
 
 ### Questions? ###
 
-* Developer: Aymetov Albert
+* Developer: Aymetov Albert, Kutyumov Andrey.
