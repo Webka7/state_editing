@@ -14,14 +14,14 @@
             <min>4.11.1</min>
         </core_version>
         <core_edition>
-            ULTIMATE
+            MULTIVENDOR,ULTIMATE
         </core_edition>
     </compatibility>
     
     <queries>
         <item for="install">
             ALTER TABLE `?:products`
-                ADD `state_editing` VARCHAR(64) NOT NULL;
+                ADD `state_editing` VARCHAR(32) NOT NULL;
         </item>
         <item for="uninstall">
             ALTER TABLE `?:products`
